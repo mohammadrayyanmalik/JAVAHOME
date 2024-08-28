@@ -10,6 +10,15 @@ class datatype
 		
 		short a=10000;
 		System.out.println("the value of a is "+a+" is more than byte");
+		
+		
+		int b=102083878;
+		System.out.println("HI "+b);
+		
+		
+		// when we declare the float datatype variable in points like 19.92 it we should should use the f after no otherwise it give the error becuse of its default to double datatype so we should used f 
+		float c=12.928f;
+		System.out.println(c);
 	}
 	
 }
