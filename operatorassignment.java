@@ -11,11 +11,11 @@ class operatorassignment
 		
 		
 		
-		float amit=100;
-		float wholeclass=10;
-		amit/=wholeclass;
-		System.out.println(amit);
-		System.out.println(wholeclass);
+		float c=105;
+		float d=10;
+		c/=d;
+		System.out.println(c);
+	
 		// 10
 		
 		int x=2;
