@@ -12,7 +12,7 @@ class Array1
 	System.out.println(numbers[1]);
 	
 	System.out.println("========================================");
-	
+	/*
 	int n[]=new int [5];
 	
 	for (int i=0; i<=4; i++)
@@ -27,8 +27,9 @@ class Array1
 		
 	}
 	
-		System.out.println("=====================================");
-	
+		System.out.println("=====================================");*/
+		sc.nextLine();
+
 	
 	String names[]=new String[5];
 	for (int i=0; i<=4; i++)
@@ -47,7 +48,7 @@ class Array1
 	{
 		System.out.println(names[i]);
 	}
-	
+		
 	
 	}
 }
