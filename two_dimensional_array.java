@@ -12,16 +12,32 @@ class two_dimensional_array
 			{
 				System.out.print(n+": is a even no ");
 			}
+			
 			else 
 			{
 			System.out.print(n+" is a odd no");
-				
 			}
-			
 		}
-		System.out.println();
+			System.out.println();
 	}
 		
+		System.out.println("===========================");
+		
+		int sum=0;
+		for (int i=0; i<numbers.length; i++)
+		{
+			System.out.println();
+			sum=0;
+			for (int j=0; j<numbers[i].length; j++)
+			{
+				sum=(sum+(numbers[i][j]));
+				
+			}
+			System.out.println();
+			System.out.println(sum);
+			
+		}
+			
 		
 	
 	
