@@ -24,7 +24,7 @@ class classes_and_object
 		e1.shopId="ES3";
 		e1.shopId="ES4";
 
-		System.
+		System.out.println(shopId);
 
 
 		e1.shopName="Amazon";
