@@ -47,8 +47,8 @@ public class SingleInheritence {
 		
 		
 		System.out.println("====================================================================");
-		int sum=obj.add(100, 11);
-		System.out.println(sum);
+	obj.add(100, 11);
+		System.out.println("sum is :"+obj.add(12, 12));
 		
 		System.out.println("subs is :"+obj.subs(100, 101));
 		
@@ -64,4 +64,4 @@ public class SingleInheritence {
 //void type ke object  ko hum sysout me nahi likh sakte 
 //agar hum child ka object banain ge to parent ka bhi constructor call hoga
 //in case of parametarized and non parametarized constructor when we create child object then it called parent object also
-//child ke constroctor ke through kuch parent ke constructor ko value deni ho to hum "Super " keyword ka use karenge
+//child ke constroctor ke through  parent ke constructor ko kuch value deni ho to hum "Super " keyword ka use karenge
