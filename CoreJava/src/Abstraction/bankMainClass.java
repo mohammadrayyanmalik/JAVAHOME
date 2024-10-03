@@ -6,6 +6,9 @@ public class bankMainClass {
 		 Bank s1=new HDFC();
 		 s1.address();
 		 s1.detials();
+		 
+		 s1.sum(11);
+		 Bank.staticMethod();
 			System.out.println("======================================================="); 
 			HDFC h1=new HDFC();
 			h1.address();
