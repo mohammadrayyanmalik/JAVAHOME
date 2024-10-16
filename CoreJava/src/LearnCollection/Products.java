@@ -5,6 +5,11 @@ public class Products {
 	private String name;
 	private int price;
 	
+	@Override
+	public String toString() {
+		return "Products [id=" + id + ", name=" + name + ", price=" + price + "]";
+	}
+
 	public Products(int id,String name, int price)
 	{
 		super();
