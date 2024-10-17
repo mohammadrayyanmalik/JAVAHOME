@@ -48,6 +48,7 @@ public class LinkList1 {
 //		list.removeIf((num)->num%2==1);
 //		System.out.println(list);
 		
+		System.out.println("==============================================");
 		
 		
 		
