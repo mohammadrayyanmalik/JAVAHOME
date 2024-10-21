@@ -19,7 +19,7 @@ public class Example2 {
 					System.out.println("Grade A");
 				}
 				else if (t.getMarks()>60)
-				System.out.println("Grade B");
+				System.out.println("Grade B"); 
 				
 				else if (t.getMarks()>40)
 					System.out.println("Grade c");

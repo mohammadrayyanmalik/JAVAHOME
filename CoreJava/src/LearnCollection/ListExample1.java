@@ -18,7 +18,7 @@ public class ListExample1 {
 		
 		for (Object i:list)
 		{
-			System.out.println(i);
+			System.out.println(i); 
 		}
 		
 	}

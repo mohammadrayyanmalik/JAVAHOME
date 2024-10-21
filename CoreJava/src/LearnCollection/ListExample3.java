@@ -15,7 +15,7 @@ public class ListExample3 {
 		
 		System.out.println("=======================================================");
 		
-		for (Products p:products)
+		for (Products p:products) 
 		{
 			System.out.println(p);
 		}

@@ -1,6 +1,6 @@
 package LearnCollection;
 
-public class Products {
+public class Products implements Comparable<Products> {
 	private int id;
 	private String name;
 	private int price;
@@ -55,5 +55,12 @@ public class Products {
 	public void setPrice(int price)
 	{
 		this.price=price;
+	}
+ 
+	@Override
+	public int compareTo(Products o) {
+		// TODO Auto-generated method stub
+		return this.id-o.id;
+		
 	}
 }

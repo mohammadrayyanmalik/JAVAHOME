@@ -17,7 +17,7 @@ public class Example1 {
 				}
 			}
 			
-			
+			 
 		};
 		
 		tables.accept(13);
