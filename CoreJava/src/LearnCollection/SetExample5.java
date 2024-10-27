@@ -32,7 +32,9 @@ public class SetExample5 {
 			System.out.println(set.headSet(11,true));//uske aage ka sara provide karta hai usko lekar kar
 			
 			System.out.println(set.tailSet(11));	 //uske peeche ka sara provide karta hai usko lekar kar
-			System.out.println(set.tailSet(11,false));
+			System.out.println(set.tailSet(11,false));//uske peeche ka sara provide karta hai usko chhodh kar
+			
+			
 			
 	}
 }
