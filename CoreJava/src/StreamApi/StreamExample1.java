@@ -34,5 +34,7 @@ public class StreamExample1 {
 		Consumer<String> consumer=(j)->System.out.println(j);
 		
 		names.forEach((n)->System.out.println(n+" "+n.length()));
+		
+		
 	}
 }
