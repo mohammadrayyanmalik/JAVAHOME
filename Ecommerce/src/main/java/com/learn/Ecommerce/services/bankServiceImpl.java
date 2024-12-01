@@ -24,6 +24,7 @@ public class bankServiceImpl implements bankService {
 		bankDto.setAccountNumber(id);
 		
 		Bank bank = DtoToEntity(bankDto);
+	
 		Bank savedBank=bankRepository.save(bank);
 		
 		BankDto savedDto = entityToDto(savedBank);
@@ -66,7 +67,7 @@ public class bankServiceImpl implements bankService {
 		bankDto.setAddress(bank.getAddress());
 		bankDto.setAge(bank.getAge());
 		
-		
+		System.out.println(bankDto);
 		return bankDto;
 	}
 
@@ -82,6 +83,7 @@ public class bankServiceImpl implements bankService {
 		bank.setPassword(bankDto.getPassword());
 		bank.setAddress(bankDto.getAddress());
 		bank.setAge(bankDto.getAge());
+		System.out.println(bank);
 		return bank;
 	}
 

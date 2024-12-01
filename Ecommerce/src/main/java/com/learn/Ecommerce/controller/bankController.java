@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.learn.Ecommerce.Dto.BankDto;
 import com.learn.Ecommerce.services.bankService;
 
-@RequestMapping("/holders")
+@RequestMapping("/holderss")
 @RestController
 public class bankController {
 
@@ -21,8 +21,9 @@ public class bankController {
 	bankService bankService;
 	
 	@PostMapping
-	public ResponseEntity<BankDto> addHolder( BankDto bankDto)
+	public ResponseEntity<BankDto> addHolder( @RequestBody BankDto bankDto)
 	{
+		
 		BankDto savedHolder = bankService.addHolder(bankDto);
 		
 		return new ResponseEntity<BankDto>(savedHolder,HttpStatus.CREATED);

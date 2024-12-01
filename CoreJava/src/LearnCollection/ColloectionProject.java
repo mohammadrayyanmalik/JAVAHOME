@@ -56,7 +56,7 @@ public class ColloectionProject {
 			}
 			
 		}
-		break;	
+			
 		
 		case 2:
 		{
@@ -65,12 +65,50 @@ public class ColloectionProject {
 			char ch=sc.next().charAt(0);
 			if(ch=='a')
 			{
-				TreeSet<Products> pro=new TreeSet<Products>();
+				TreeSet<Products> pro=new TreeSet<Products>((o1,o2)->o1.getName()
+						.compareTo(o2.getName()));
+				
+				System.out.println(products);
 			}
 			
+			else if (ch=='b') 
+			{
+				TreeSet<Products> pro=new TreeSet<Products>((o1,o2)->o2.getName()
+						.compareTo(o1.getName()));
+				System.out.println(products);
+			}
 			
+			else {
+				System.out.println("invalid entry");
+			}
 		}
+		
+		
+		
+		
+		case 3:{
+			System.out.println("a for Asc and b for Desc");
 			
+			char ch=sc.next().charAt(0);
+			if(ch=='a')
+			{
+				TreeSet<Products> pr=new TreeSet<Products>((p1,p2)
+						->p1.getPrice()-p2.getPrice());
+				System.out.println(products);
+			}
+			
+			else if (ch=='b') {
+				TreeSet<Products> pr=new TreeSet<Products>((p1,p2)
+						->p2.getPrice()-p1.getPrice());
+				System.out.println(products);
+				
+			}
+			else
+			{
+				System.out.println("invlaid entry");
+			}
+			break;
+		}
 			
 		
 		
