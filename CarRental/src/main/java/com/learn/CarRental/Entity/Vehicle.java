@@ -22,6 +22,7 @@ public class Vehicle {
 	private String type;	  
 	private String price;     
 	private String licensePlate;
+	
 	private String status;
 	
 	
